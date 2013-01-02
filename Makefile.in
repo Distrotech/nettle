@@ -35,7 +35,8 @@ TARGETS = aesdata$(EXEEXT) desdata$(EXEEXT) twofishdata$(EXEEXT) \
 	  $(LIBTARGETS) @IF_SHARED@ $(SHLIBTARGETS)
 IMPLICIT_TARGETS = @IF_DLL@ $(LIBNETTLE_FILE) $(LIBHOGWEED_FILE)
 
-DOCTARGETS = nettle.info nettle.html nettle.pdf
+DOCTARGETS = nettle.info
+#nettle.html nettle.pdf
 
 PKGCONFIG_FILES = nettle.pc @IF_HOGWEED@ hogweed.pc
 pkgconfigdir = $(libdir)/pkgconfig
