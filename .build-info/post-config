@@ -1,0 +1,3 @@
+#!/bin/bash
+
+touch nettle.ps nettle.pdf 
