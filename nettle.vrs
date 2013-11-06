@@ -1,0 +1,121 @@
+\initial {A}
+\entry {\code {AES_BLOCK_SIZE}}{18}
+\entry {\code {AES_KEY_SIZE}}{18}
+\entry {\code {AES_MAX_KEY_SIZE}}{18}
+\entry {\code {AES_MIN_KEY_SIZE}}{18}
+\entry {\code {ARCFOUR_KEY_SIZE}}{19}
+\entry {\code {ARCFOUR_MAX_KEY_SIZE}}{19}
+\entry {\code {ARCFOUR_MIN_KEY_SIZE}}{19}
+\entry {\code {ARCTWO_BLOCK_SIZE}}{20}
+\entry {\code {ARCTWO_KEY_SIZE}}{20}
+\entry {\code {ARCTWO_MAX_KEY_SIZE}}{20}
+\entry {\code {ARCTWO_MIN_KEY_SIZE}}{20}
+\initial {B}
+\entry {\code {BASE64_ENCODE_FINAL_LENGTH}}{57}
+\entry {\code {BLOWFISH_BLOCK_SIZE}}{21}
+\entry {\code {BLOWFISH_KEY_SIZE}}{21}
+\entry {\code {BLOWFISH_MAX_KEY_SIZE}}{21}
+\entry {\code {BLOWFISH_MIN_KEY_SIZE}}{21}
+\initial {C}
+\entry {\code {CAMELLIA_BLOCK_SIZE}}{22}
+\entry {\code {CAMELLIA_KEY_SIZE}}{22}
+\entry {\code {CAMELLIA_MAX_KEY_SIZE}}{22}
+\entry {\code {CAMELLIA_MIN_KEY_SIZE}}{22}
+\entry {\code {CAST128_BLOCK_SIZE}}{23}
+\entry {\code {CAST128_KEY_SIZE}}{23}
+\entry {\code {CAST128_MAX_KEY_SIZE}}{23}
+\entry {\code {CAST128_MIN_KEY_SIZE}}{23}
+\initial {D}
+\entry {\code {DES_BLOCK_SIZE}}{23}
+\entry {\code {DES_KEY_SIZE}}{23}
+\entry {\code {DES3_BLOCK_SIZE}}{24}
+\entry {\code {DES3_KEY_SIZE}}{25}
+\initial {G}
+\entry {\code {GCM_BLOCK_SIZE}}{32}
+\entry {\code {GCM_IV_SIZE}}{32}
+\entry {\code {GOSTHASH94_DATA_SIZE}}{16}
+\entry {\code {GOSTHASH94_DIGEST_SIZE}}{16}
+\initial {M}
+\entry {\code {MD2_DATA_SIZE}}{14}
+\entry {\code {MD2_DIGEST_SIZE}}{14}
+\entry {\code {MD4_DATA_SIZE}}{14}
+\entry {\code {MD4_DIGEST_SIZE}}{14}
+\entry {\code {MD5_DATA_SIZE}}{13}
+\entry {\code {MD5_DIGEST_SIZE}}{13}
+\initial {N}
+\entry {\code {nettle_aes128}}{28}
+\entry {\code {nettle_aes192}}{28}
+\entry {\code {nettle_aes256}}{28}
+\entry {\code {nettle_arcfour128}}{28}
+\entry {\code {nettle_arctwo_gutmann128}}{28}
+\entry {\code {nettle_arctwo128}}{28}
+\entry {\code {nettle_arctwo40}}{28}
+\entry {\code {nettle_arctwo64}}{28}
+\entry {\code {nettle_camellia128}}{28}
+\entry {\code {nettle_camellia192}}{28}
+\entry {\code {nettle_camellia256}}{28}
+\entry {\code {nettle_cast128}}{28}
+\entry {\code {nettle_ciphers}}{28}
+\entry {\code {nettle_gosthash94}}{17}
+\entry {\code {nettle_hashes}}{17}
+\entry {\code {nettle_md2}}{16}
+\entry {\code {nettle_md4}}{16}
+\entry {\code {nettle_md5}}{16}
+\entry {\code {nettle_ripemd160}}{16}
+\entry {\code {nettle_serpent128}}{28}
+\entry {\code {nettle_serpent192}}{28}
+\entry {\code {nettle_serpent256}}{28}
+\entry {\code {nettle_sha1}}{16}
+\entry {\code {nettle_sha224}}{17}
+\entry {\code {nettle_sha256}}{17}
+\entry {\code {nettle_sha3_256}}{17}
+\entry {\code {nettle_sha384}}{17}
+\entry {\code {nettle_sha512}}{17}
+\entry {\code {nettle_twofish128}}{28}
+\entry {\code {nettle_twofish192}}{28}
+\entry {\code {nettle_twofish256}}{28}
+\initial {R}
+\entry {\code {RIPEMD160_DATA_SIZE}}{15}
+\entry {\code {RIPEMD160_DIGEST_SIZE}}{15}
+\initial {S}
+\entry {\code {SALSA20_BLOCK_SIZE}}{26}
+\entry {\code {SALSA20_IV_SIZE}}{26}
+\entry {\code {SALSA20_KEY_SIZE}}{26}
+\entry {\code {SALSA20_MAX_KEY_SIZE}}{25}
+\entry {\code {SALSA20_MIN_KEY_SIZE}}{25}
+\entry {\code {SERPENT_BLOCK_SIZE}}{26}
+\entry {\code {SERPENT_KEY_SIZE}}{27}
+\entry {\code {SERPENT_MAX_KEY_SIZE}}{26}
+\entry {\code {SERPENT_MIN_KEY_SIZE}}{26}
+\entry {\code {SHA1_DATA_SIZE}}{15}
+\entry {\code {SHA1_DIGEST_SIZE}}{15}
+\entry {\code {SHA224_DATA_SIZE}}{9}
+\entry {\code {SHA224_DIGEST_SIZE}}{9}
+\entry {\code {SHA256_DATA_SIZE}}{8}
+\entry {\code {SHA256_DIGEST_SIZE}}{8}
+\entry {\code {SHA3_224_DATA_SIZE}}{11}
+\entry {\code {SHA3_224_DIGEST_SIZE}}{11}
+\entry {\code {SHA3_256_DATA_SIZE}}{11}
+\entry {\code {SHA3_256_DIGEST_SIZE}}{11}
+\entry {\code {SHA3_384_DATA_SIZE}}{12}
+\entry {\code {SHA3_384_DIGEST_SIZE}}{12}
+\entry {\code {SHA3_512_DATA_SIZE}}{12}
+\entry {\code {SHA3_512_DIGEST_SIZE}}{12}
+\entry {\code {SHA384_DATA_SIZE}}{10}
+\entry {\code {SHA384_DIGEST_SIZE}}{10}
+\entry {\code {SHA512_DATA_SIZE}}{10}
+\entry {\code {SHA512_DIGEST_SIZE}}{9}
+\initial {T}
+\entry {\code {TWOFISH_BLOCK_SIZE}}{27}
+\entry {\code {TWOFISH_KEY_SIZE}}{27}
+\entry {\code {TWOFISH_MAX_KEY_SIZE}}{27}
+\entry {\code {TWOFISH_MIN_KEY_SIZE}}{27}
+\initial {U}
+\entry {\code {UMAC_KEY_SIZE}}{38}
+\entry {\code {UMAC128_DATA_SIZE}}{39}
+\entry {\code {UMAC128_DIGEST_SIZE}}{39}
+\entry {\code {UMAC32_DIGEST_SIZE}}{38}
+\entry {\code {UMAC64_DIGEST_SIZE}}{38}
+\entry {\code {UMAC96_DIGEST_SIZE}}{38}
+\initial {Y}
+\entry {\code {YARROW256_SEED_FILE_SIZE}}{55}
