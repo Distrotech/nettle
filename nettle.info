@@ -148,8 +148,8 @@ _BLOWFISH_
 
 _CAMELLIA_
      The C implementation is by Nippon Telegraph and Telephone
-     Corporation (NTT), heavily modified by Niels Möller. Assembler for
-     x86 and x86_64 by Niels Möller. Released under the LGPL.
+     Corporation (NTT), heavily modified by Niels Möller. Assembler
+     for x86 and x86_64 by Niels Möller. Released under the LGPL.
 
 _CAST128_
      The implementation of the CAST128 cipher is written by Steve Reid.
@@ -191,8 +191,9 @@ _RIPEMD160_
 _SALSA20_
      The C implementation of SALSA20 is based on D. J. Bernstein's
      reference implementation (in the public domain), adapted to Nettle
-     by Simon Josefsson, and heavily modified by Niels Möller. Assembly
-     for x86_64 and ARM by Niels Möller. Released under the LGPL.
+     by Simon Josefsson, and heavily modified by Niels Möller.
+     Assembly for x86_64 and ARM by Niels Möller. Released under the
+     LGPL.
 
 _SERPENT_
      The implementation of the SERPENT cipher is based on the code in
@@ -1774,8 +1775,8 @@ ciphertext blocks `C_1',...  `C_n' as follows:
      C_(n-1) = E_k(IC + n - 2) XOR M_(n-1)
      C_n = E_k(IC + n - 1) [1..m] XOR M_n
 
-   The IC is the initial value for the counter, it plays a similar rôle
-as the IV for CBC. When adding, `IC + x', IC is interpreted as an
+   The IC is the initial value for the counter, it plays a similar
+rôle as the IV for CBC. When adding, `IC + x', IC is interpreted as an
 integer, in network byte order. For the last block, `E_k(IC + n - 1)
 [1..m]' means that the cipher output is truncated to `m' bytes.
 
@@ -4040,34 +4041,34 @@ Tag Table:
 Node: Top543
 Node: Introduction2242
 Node: Copyright3808
-Node: Conventions8514
-Node: Example10476
-Node: Linking11726
-Node: Reference12559
-Node: Hash functions12975
-Node: Recommended hash functions14533
-Node: Legacy hash functions23944
-Node: nettle_hash abstraction31662
-Node: Cipher functions33302
-Node: Cipher modes62750
-Node: CBC63778
-Node: CTR67052
-Node: GCM69579
-Node: Keyed hash functions77142
-Node: Key derivation functions92106
-Node: Public-key algorithms95847
-Node: RSA99829
-Node: RSA-Footnotes110443
-Ref: RSA-Footnote-1110496
-Node: DSA110665
-Node: Elliptic curves121996
-Node: Randomness129060
-Node: ASCII encoding144164
-Node: Miscellaneous functions150614
-Node: Compatibility functions151122
-Node: Nettle soup152369
-Node: Installation153362
-Node: Index154057
+Node: Conventions8519
+Node: Example10481
+Node: Linking11731
+Node: Reference12564
+Node: Hash functions12980
+Node: Recommended hash functions14538
+Node: Legacy hash functions23949
+Node: nettle_hash abstraction31667
+Node: Cipher functions33307
+Node: Cipher modes62755
+Node: CBC63783
+Node: CTR67057
+Node: GCM69584
+Node: Keyed hash functions77147
+Node: Key derivation functions92111
+Node: Public-key algorithms95852
+Node: RSA99834
+Node: RSA-Footnotes110448
+Ref: RSA-Footnote-1110501
+Node: DSA110670
+Node: Elliptic curves122001
+Node: Randomness129065
+Node: ASCII encoding144169
+Node: Miscellaneous functions150619
+Node: Compatibility functions151127
+Node: Nettle soup152374
+Node: Installation153367
+Node: Index154062
 
 End Tag Table
 
